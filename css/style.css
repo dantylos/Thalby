@@ -158,3 +158,48 @@ h1{
 .cards img{
   display: block;
 }
+
+.pers_block{
+  padding: 50px 0 70px 0;
+}
+.pers_block .container{
+  max-width: 1164px;
+}
+.pers_content{
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 50px;
+}
+.bg_white{
+  background: #FFFFFF;
+}
+.bg_grey{
+  background: rgba(204, 204, 204, 0.6);;
+}
+.pers_block h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.pers_block p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.pers_block a{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
