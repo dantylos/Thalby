@@ -1,0 +1,42 @@
+@media only screen and (max-width:1280px){
+  .bg-img{
+    right: -50px;
+  }
+}
+
+@media only screen and (max-width:1080px){
+  .container{
+    padding: 0 12px;
+  }
+}
+
+@media only screen and (max-width:992px){
+  header ul li{
+    margin-right: 18px;
+  }
+  header ul li a{
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width:767px){
+  header nav ul:first-of-type{
+    display: none;
+  }
+  
+}
+
+@media only screen and (max-width:428px){
+  .logo{
+    position: absolute;
+    top: 16px;
+    left: 16px
+  }
+}
+
+@media only screen and (max-width:992px){
+    header ul li{
+      margin-right: 12px;
+    }
+}
