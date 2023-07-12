@@ -24,7 +24,13 @@
   header nav ul:first-of-type{
     display: none;
   }
-  
+  #menuToggle
+  {
+    display: block;
+  }
+  header .container{
+    justify-content: flex-end;
+  }
 }
 
 @media only screen and (max-width:428px){

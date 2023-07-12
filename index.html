@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="https://resources/demos/style.css"> 
+  <link rel="stylesheet" href="https://resources/demos/style.css">
+  <link rel="stylesheet" href="css/menu_mobile.css"> 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <title>Thalby</title>
@@ -19,7 +20,7 @@
   <header>
     <div class="container">
       <a href="index.html" class="logo"><img src="images/Logo.svg" alt="Logo"></a>
-      <nav>
+      <nav id="main_nav">
         <ul>
           <li><a href="#">Shop</a></li>
           <li><a href="#">Collections</a></li>
@@ -27,14 +28,29 @@
           <li><a href="#" id="opener">Stiries</a></li> 
         </ul>
       </nav>
-      <ul>
+      <ul class="contacts">
         <li><a href="#" target="_blank"><img src="images/Inst.svg" alt="Instagram"></a></li>
         <li><a href="#"><img src="images/Search.svg" alt="Search"></a></li>
         <li><a href="#"><img src="images/Block.svg" alt="Block"></a></li>
       </ul>
     </div>
-  </header>
 
+
+  </header>
+  <nav role="navigation" id="nav_menu">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Free Guide</a></li>
+        <li><a href="#" id="opener">Stiries</a></li> 
+      </ul>
+    </div>
+  </nav>
   <main>
     <section class="main_banner">
       <div class="container flex">

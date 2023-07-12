@@ -31,13 +31,18 @@ header ul{
 }
 .logo{
   position: absolute;
-  top: 16px;
+  top: 22px;
   left: calc(50% - 40px);
 }
 header ul li{
   margin-right: 28px;
 }
-
+.contacts li{
+  margin-right: 10px;
+}
+.contacts li:first-of-type{
+  margin-right: 16px;
+}
 header ul li a{
   text-decoration: none;
   font-family: 'Roboto';
@@ -46,6 +51,9 @@ header ul li a{
   font-size: 16px;
   line-height: 26px;
   color: #1C1B1B;
+}
+header ul li a img{
+  max-width: 30px;
 }
 
 /*body*/
